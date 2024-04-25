@@ -1,7 +1,7 @@
-FROM openjdk:17-apline
+FROM openjdk:17
 
 ARG JAR_FILE=build/libs/*.jar
 
 COPY ${JAR_FILE} backend.jar
 
-ENTRYPOINT ["java","-jar", "/backend.jar"]
+ENTRYPOINT ["java", "-jar", "/backend.jar"]
