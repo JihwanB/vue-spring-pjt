@@ -62,4 +62,6 @@ public class WorkController {
 		return null;
 	}
 
+	// CI/CD 테스트를 위한 추가
+
 }
