@@ -6,11 +6,12 @@ services:
   # springboot
   app:
     container_name: work-container
+    build: .
+    #    image: jihwanb/springapp:26790ad3d93e5cddeb8a7e7343240253b7660170
     depends_on:
       - database
     ports:
       - "8972:8888"
-    build: .
     environment:
       SPRING_DATASOURCE_URL: jdbc:mariadb://database:3306/encore?useUnicode=true
       SPRING_DATASOURCE_USERNAME: work_user

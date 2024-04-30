@@ -14,7 +14,7 @@
 # git actions
 FROM openjdk:17
 
-WORKDIR /app-backend
+#WORKDIR /app-backend
 
 ARG JAR_FILE=build/libs/*.jar
 COPY ${JAR_FILE} vuespring.jar
