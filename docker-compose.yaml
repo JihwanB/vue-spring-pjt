@@ -7,7 +7,7 @@ services:
   app:
     container_name: work-container
     build: .
-    #    image: jihwanb/springapp:26790ad3d93e5cddeb8a7e7343240253b7660170
+    #image: jihwanb/springapp:847d2ab3b61fcf81d2edef7ba9c761d22b0f8a51
     depends_on:
       - database
     ports:

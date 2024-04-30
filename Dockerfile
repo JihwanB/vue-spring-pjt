@@ -12,7 +12,7 @@
 
 
 # git actions
-FROM openjdk:17
+FROM adoptopenjdk/openjdk17:arm64v8-jdk-hotspot
 
 #WORKDIR /app-backend
 
