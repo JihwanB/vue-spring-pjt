@@ -23,3 +23,9 @@ jobs:
         run: chmod +x gradlew
       - name: Build Jar
         run: ./gradlew build bootJAR
+
+      # runner(ubuntu) docker buildx install
+      - name: Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      # docker image build to push to docker hub
