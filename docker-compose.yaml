@@ -19,6 +19,7 @@ services:
     links:
       - database
     restart: always
+    platform: linux/amd64
   # mariadb
   database:
     image: mariadb:11.3.2

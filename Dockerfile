@@ -12,7 +12,7 @@
 
 
 # git actions
-FROM eclipse-temurin:latest
+FROM openjdk:17
 
 #WORKDIR /app-backend
 
