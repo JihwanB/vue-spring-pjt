@@ -12,7 +12,7 @@
 
 
 # git actions
-FROM adoptopenjdk/openjdk17:arm64v8-jdk-hotspot
+FROM eclipse-temurin:latest
 
 #WORKDIR /app-backend
 
