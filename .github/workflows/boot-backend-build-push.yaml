@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: Source Checkout
         uses: actions/checkout@v2
+
+      - name: Setup JDK 17
+        uses: actions/setup-java@v2
+        with:
+          java-version: '17'
+          distribution: 'adopt'
